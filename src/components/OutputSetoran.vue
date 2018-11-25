@@ -39,7 +39,9 @@ export default {
 </script>
 
 <style scoped>
+
 ul {
+  margin-bottom: 0;
   list-style-type: none;
   border-bottom: 1px solid rgb(128, 128, 128, .5);
 }
@@ -48,5 +50,9 @@ ul li span {
   display: inline-block;
   width: 100%;
   justify-content: justify;
+}
+
+.content blockquote:not(:last-child), .content dl:not(:last-child), .content ol:not(:last-child), .content p:not(:last-child), .content pre:not(:last-child), .content table:not(:last-child), .content ul:not(:last-child) {
+  margin: 5px 0;
 }
 </style>
