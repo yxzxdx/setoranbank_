@@ -79,6 +79,7 @@ export default {
 }
 
 .card {
+  margin-bottom: 30px;
 }
 
 .class-header-title {
