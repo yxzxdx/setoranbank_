@@ -1,14 +1,5 @@
 <template>
   <div id="app">
-    <!-- <div class="columns">
-      <nav v-for="tab in tabs" :key="tab" @click="currentTab = tab" >
-        <button class="button">{{tab}}</button>
-      </nav>
-
-      <div class="column">
-        <component :is="currentTabComponent" class="tab-content"></component>        
-      </div>
-    </div> -->
 
   <div class="card">
     <header class="card-header">
@@ -34,9 +25,6 @@
       </div>
     </footer>
   </div>
-
-
-
 
   </div>
 </template>

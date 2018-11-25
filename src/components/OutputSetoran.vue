@@ -41,6 +41,7 @@ export default {
 <style scoped>
 ul {
   list-style-type: none;
+  border-bottom: 1px solid rgb(128, 128, 128, .5);
 }
 
 ul li span {
